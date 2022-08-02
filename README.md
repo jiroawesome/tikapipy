@@ -25,7 +25,7 @@ print(api.xss_stub(payload=payload)) # res: int
 from tikapipy import TikApi
 api = TikApi(key='') # api key
 url = "url"
-cookies = "cookies"
+coolies = "cookies"
 print(api.x_gorgon(url=url, cookies=cookies)) # res: str
 ```
 
@@ -35,16 +35,16 @@ print(api.x_gorgon(url=url, cookies=cookies)) # res: str
 from tikapipy import TikApi
 api = TikApi(key='') # api key
 url = "url"
-cookies = "cookies"
+coolies = "cookies"
 print(api.x_khronos(url=url, cookies=cookies)) # res: int
 ```
 
-### X-APP-LOG
+### DEVREG (X-LOG + X-APP-LOG)
 
 ```python
 from tikapipy import TikApi
 api = TikApi(key='') # api key
-print(api.xapplog()) # res: json
+print(api.devreg()) # res: json
 ```
 
 ### X-LADON
