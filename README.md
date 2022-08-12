@@ -57,4 +57,4 @@ print(api.xladon()) # res: str
 
 ## API-KEY
 
-- DM Virtuality.#6670 on Discord to purchase an api-key.
+- DM Virtuality#6670 on Discord to purchase an api-key.
